@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) { //進入點,建構值
         super.onCreate(savedInstanceState); // 呼叫父類別的版本
         setContentView(R.layout.activity_main);     //Setting Layout
-        setContentView(R.layout.new_layouttest);    //Try New Layout and put it in
+   //     setContentView(R.layout.new_layouttest);    //Try New Layout and put it in
+
     }
 }
