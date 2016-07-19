@@ -1,7 +1,7 @@
 package com.example.user.myapplication_0718;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -17,11 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         //Debug message
         int value = 1 ;
-        //Log.d(DEBUG_TAG,"value"+value);
+        Log.d(DEBUG_TAG,"value:" + value);
 
-        //Log.d(DEBUG_TAG, "Hit yourself"); //log.d(debug); log.v(verbose)
+        Log.d(DEBUG_TAG, "Hit yourself"); //log.d(debug); log.v(verbose)
         //-----Log.d Output 較穩定, 但手續較繁複
         //-----Toast 有些不適用
+
         //remind User by little window
         //|----------------生成這個物件 -------------------------|.|-顯示-|
         Toast.makeText(this,"value:" + value, Toast.LENGTH_LONG).show();
